@@ -1,5 +1,11 @@
 site_name: My Docs
 
+theme: 
+    name: material
+
+plugins:
+- search
+
 markdown_extensions:
   # Python Markdown
   - abbr
@@ -9,17 +15,17 @@ markdown_extensions:
   - footnotes
   - md_in_html  
   - toc:                 
-    permalink: true
+        permalink: true
 
   - pymdownx.arithmatex:
-      generic: true
+        generic: true
   - pymdownx.betterem:
-      smart_enable: all
+        smart_enable: all
   - pymdownx.caret
   - pymdownx.details
   - pymdownx.emoji:
-      emoji_index: tag:yaml.org,2002:python/name:material.extensions.emoji.twemoji
-      emoji_generator: tag:yaml.org,2002:python/name:material.extensions.emoji.to_svg
+        emoji_index: !!python/name:material.extensions.emoji.twemoji 
+        emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.highlight
   - pymdownx.inlinehilite
   - pymdownx.keys
@@ -27,13 +33,7 @@ markdown_extensions:
   - pymdownx.smartsymbols
   - pymdownx.superfences
   - pymdownx.tabbed:
-      alternate_style: true
+        alternate_style: true
   - pymdownx.tasklist:
-      custom_checkbox: true
+        custom_checkbox: true
   - pymdownx.tilde
-
-theme: 
-    name: material
-
-plugins:
-- search
