@@ -6,6 +6,9 @@ theme:
 plugins:
 - search
 
+repo_url: https://github.com/wildanxgifari/webtest
+repo_name: wildanxgifari/webtest
+
 markdown_extensions:
   # Python Markdown
   - abbr
