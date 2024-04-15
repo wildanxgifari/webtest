@@ -6,4 +6,4 @@ THe first time getting linearly increasing accuracy, by increasing batch_size to
 
 ![image](https://github.com/wildanxgifari/webtest/assets/97862092/1bd7eb18-fcac-4f6e-85a2-8e204ca21475)
 
-this one is with lr = 0.1 = 16
+this one is with lr = 0.1 and batch size = 16
